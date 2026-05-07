@@ -1,0 +1,20 @@
+Run actions/checkout@v2
+Run actions/setup-python@v2
+Run python -m pip install --upgrade pip
+Run pip install -r requirements.txt
+Run flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+0
+Run flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+0
+Run pylint app
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+Run nosetests
+test_create_account (tests.test_routes.test_create_account) ... ok
+test_get_accounts (tests.test_routes.test_get_accounts) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.123s
+
+OK

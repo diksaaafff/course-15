@@ -1,5 +1,10 @@
 flask
 flask-sqlalchemy
-gunicorn
+flask-talisman
+flask-cors
 pytest
-pytest-flask
+nose
+coverage
+flake8
+pylint
+gunicorn

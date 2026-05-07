@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@doe.com",
+    "address": "123 Main St",
+    "status": "Active"
+  }
+]

@@ -1,5 +1,7 @@
 # DevOps Capstone Project: Customer Account Microservice
 
+![Build Status](https://github.com/user/repo/actions/workflows/ci-build.yml/badge.svg)
+
 ## Project Overview
 This project is part of the DevOps Capstone, focusing on the development and deployment of a **Customer Account Microservice**. This microservice handles all user-related functionalities including account creation, authentication, and profile management.
 
