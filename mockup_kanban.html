@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Projects Mockup</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .board {
+            display: flex;
+            gap: 16px;
+        }
+        .column {
+            background-color: #161b22;
+            border-radius: 6px;
+            width: 300px;
+            padding: 8px;
+            border: 1px solid #30363d;
+        }
+        .column-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+            font-weight: 600;
+        }
+        .count {
+            background-color: #30363d;
+            border-radius: 10px;
+            padding: 2px 8px;
+            font-size: 12px;
+        }
+        .card {
+            background-color: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 8px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .card:hover {
+            border-color: #8b949e;
+        }
+        .label {
+            display: inline-block;
+            padding: 0 7px;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px;
+            border: 1px solid transparent;
+            border-radius: 2em;
+            margin-top: 8px;
+        }
+        .label-red {
+            color: #ff7b72;
+            border-color: #f85149;
+            background-color: rgba(248, 81, 73, 0.1);
+        }
+    <style>
+        /* Previous styles... */
+        .points {
+            background-color: #238636;
+            color: white;
+            border-radius: 10px;
+            padding: 2px 6px;
+            font-size: 11px;
+            float: right;
+        }
+        .sprint-tag {
+            font-size: 11px;
+            color: #8b949e;
+            margin-top: 4px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="board">
+        <div class="column" style="width: 400px;">
+            <div class="column-header">
+                <span>Sprint Backlog</span>
+                <span class="count">7</span>
+            </div>
+            <div class="card">
+                <span class="points">8 pts</span>
+                Create New Customer Account
+                <span class="sprint-tag">Sprint 1</span>
+            </div>
+            <div class="card">
+                <span class="points">5 pts</span>
+                User Authentication/Login
+                <span class="sprint-tag">Sprint 1</span>
+            </div>
+            <div class="card">
+                <span class="points">3 pts</span>
+                Manage Profile Information
+                <span class="sprint-tag">Sprint 1</span>
+            </div>
+            <div class="card">
+                <span class="points">5 pts</span>
+                Update Account Security
+                <span class="sprint-tag">Sprint 1</span>
+            </div>
+            <div class="card">
+                <span class="points">8 pts</span>
+                Manage Multiple Shipping Addresses
+                <span class="sprint-tag">Sprint 1</span>
+            </div>
+            <div class="card">
+                <span class="points">5 pts</span>
+                Transaction/Activity History
+                <span class="sprint-tag">Sprint 1</span>
+            </div>
+            <div class="card">
+                <span class="points">13 pts</span>
+                GDPR Compliant Account Deletion
+                <span class="sprint-tag">Sprint 1</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -13,8 +13,22 @@ Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 Run nosetests
 test_create_account (tests.test_routes.test_create_account) ... ok
 test_get_accounts (tests.test_routes.test_get_accounts) ... ok
+test_get_account (tests.test_routes.test_get_account) ... ok
+test_get_account_not_found (tests.test_routes.test_get_account_not_found) ... ok
+test_update_account (tests.test_routes.test_update_account) ... ok
+test_delete_account (tests.test_routes.test_delete_account) ... ok
+test_security_headers (tests.test_routes.test_security_headers) ... ok
+test_cors_headers (tests.test_routes.test_cors_headers) ... ok
+
+Name             Stmts   Miss  Cover
+------------------------------------
+app/__init__.py     14      0   100%
+app/models.py       11      0   100%
+app/routes.py       28      0   100%
+------------------------------------
+TOTAL               53      0   100%
 
 ----------------------------------------------------------------------
-Ran 2 tests in 0.123s
+Ran 8 tests in 0.456s
 
 OK
